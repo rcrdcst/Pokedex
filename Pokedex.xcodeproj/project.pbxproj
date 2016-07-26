@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21BA21911D48248600E38E7B /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BA21901D48248600E38E7B /* Pokemon.swift */; };
 		21C895611D4823320013F135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C895601D4823320013F135 /* AppDelegate.swift */; };
 		21C895631D4823320013F135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C895621D4823320013F135 /* ViewController.swift */; };
 		21C895661D4823320013F135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C895641D4823320013F135 /* Main.storyboard */; };
 		21C895681D4823320013F135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C895671D4823320013F135 /* Assets.xcassets */; };
 		21C8956B1D4823320013F135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C895691D4823320013F135 /* LaunchScreen.storyboard */; };
+		21C895731D4823A40013F135 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 21C895721D4823A40013F135 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21BA21901D48248600E38E7B /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		21C8955D1D4823320013F135 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C895601D4823320013F135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21C895621D4823320013F135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		21C895671D4823320013F135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21C8956A1D4823320013F135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21C8956C1D4823320013F135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C895721D4823A40013F135 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		21C8955F1D4823320013F135 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				21C895741D4823AE0013F135 /* Model */,
 				21C895601D4823320013F135 /* AppDelegate.swift */,
 				21C895621D4823320013F135 /* ViewController.swift */,
 				21C895641D4823320013F135 /* Main.storyboard */,
 				21C895671D4823320013F135 /* Assets.xcassets */,
 				21C895691D4823320013F135 /* LaunchScreen.storyboard */,
+				21C895721D4823A40013F135 /* pokemon.csv */,
 				21C8956C1D4823320013F135 /* Info.plist */,
 			);
 			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		21C895741D4823AE0013F135 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21BA21901D48248600E38E7B /* Pokemon.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			files = (
 				21C8956B1D4823320013F135 /* LaunchScreen.storyboard in Resources */,
 				21C895681D4823320013F135 /* Assets.xcassets in Resources */,
+				21C895731D4823A40013F135 /* pokemon.csv in Resources */,
 				21C895661D4823320013F135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +152,7 @@
 			files = (
 				21C895631D4823320013F135 /* ViewController.swift in Sources */,
 				21C895611D4823320013F135 /* AppDelegate.swift in Sources */,
+				21BA21911D48248600E38E7B /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +304,7 @@
 				21C895711D4823320013F135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
