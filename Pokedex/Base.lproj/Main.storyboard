@@ -495,24 +495,26 @@
                                 <exclude reference="NMp-ea-xqj"/>
                                 <exclude reference="cvP-1G-Uef"/>
                                 <exclude reference="nEK-Y4-kQT"/>
+                                <exclude reference="fD1-dJ-RlT"/>
+                                <exclude reference="j5P-Vt-mVC"/>
                                 <exclude reference="tSV-JD-LkJ"/>
                                 <exclude reference="vt2-TU-Fqc"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="baseAttackLbl" destination="Ypy-fo-0sS" id="9Nr-oc-IHq"/>
+                        <outlet property="baseAttackLbl" destination="Wph-uL-glk" id="0OT-8x-2Qa"/>
                         <outlet property="currentEvoImg" destination="Su3-Zs-aoy" id="w6h-TR-3Ce"/>
-                        <outlet property="defenceLbl" destination="Unf-yz-47P" id="1aF-TO-k19"/>
+                        <outlet property="defenceLbl" destination="PT6-BJ-GWh" id="QUJ-fj-Fnt"/>
                         <outlet property="descriptionLbl" destination="RbG-JO-zA1" id="otk-NR-5wF"/>
                         <outlet property="evoLbl" destination="lCN-ja-mjZ" id="RBA-US-JUf"/>
-                        <outlet property="heightLbl" destination="PJj-jf-BaG" id="nIg-Qr-qVf"/>
+                        <outlet property="heightLbl" destination="9aA-K6-QsE" id="xYH-Wf-y8z"/>
                         <outlet property="mainImg" destination="5px-xw-87v" id="uP1-Xe-H0L"/>
                         <outlet property="nameLbl" destination="oLv-9y-Nqd" id="Okl-LS-E3Y"/>
                         <outlet property="nextEvoImg" destination="ij0-WU-n9Y" id="Bw7-gn-Vqx"/>
-                        <outlet property="pokedexLbl" destination="oFD-xb-ib0" id="k62-4V-7qF"/>
+                        <outlet property="pokedexLbl" destination="Nn0-sc-ohC" id="Tkf-Zy-xVA"/>
                         <outlet property="typeLbl" destination="RyW-BH-rOY" id="p5J-D4-2Qa"/>
-                        <outlet property="weightLbl" destination="8Kf-kQ-bmY" id="QGS-w9-Orw"/>
+                        <outlet property="weightLbl" destination="Gzr-dF-baD" id="dFf-iY-k9z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="par-Ds-U3F" userLabel="First Responder" sceneMemberID="firstResponder"/>
