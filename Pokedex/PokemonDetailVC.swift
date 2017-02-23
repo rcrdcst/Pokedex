@@ -54,9 +54,9 @@ class PokemonDetailVC: UIViewController {
         
         if pokemon.nextEvolutionId == "" {
             evoLbl.text = "No Evolution"
-            nextEvoImg.hidden = true
+            nextEvoImg.isHidden = true
         } else {
-            nextEvoImg.hidden = false
+            nextEvoImg.isHidden = false
             nextEvoImg.image = UIImage(named: pokemon.nextEvolutionId)
             var str = "Next Evolution: \(pokemon.nextEvolutionTxt)"
             
@@ -72,7 +72,7 @@ class PokemonDetailVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func backBtnPressed(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func backBtnPressed(_ sender: AnyObject) {
+        dismiss(animated: true, completion: nil)
     }
 }
